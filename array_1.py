@@ -2,7 +2,7 @@ import array
 
 arr = array.array('i',[1,2,3]) #signed integers for array values
 
-print ("New array is: ", end="") #end used for newlines
+print ("New array is: ", end="")
 for i in range (0, 3):
     print (arr[i], end=" ")
 
